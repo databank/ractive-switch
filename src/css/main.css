@@ -1,7 +1,7 @@
 
 
 .dbk-switch > label {display: inline-block;margin-bottom: 8px;cursor: pointer;}
-.dbk-switch > label > input[type=checkbox] {width: 0;height: 0;opacity: 0;}
+.dbk-switch > label > input[type=checkbox] {width: 0;height: 0;opacity: 0;display: none;}
 
 .dbk-switch > label > .switchbar {content: "";display: inline-block;position: relative;background-color: #818181;border-radius: 10px;margin-right: .625rem;vertical-align: middle;margin: 0 1rem;width: 2.5rem;height: .9375rem;transition: background .3s ease;}
 .dbk-switch > label > .switchbar:after {content: "";position: absolute;display: inline-block;background-color: #f1f1f1;border-radius: 1.3125rem;left: -.3125rem;top: -.1875rem;box-shadow: 0 0.0625rem 0.1875rem 0.0625rem rgba(0,0,0,.4);width: 1.3125rem;height: 1.3125rem;transition: left .3s ease,background .3s ease,box-shadow 1s ease;}
