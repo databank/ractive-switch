@@ -47,6 +47,47 @@
               </td>
           </tr>
         </table>
+
+
+        <table cellspacing="1" cellpadding="15">
+          <tr>
+            <td>
+              Variable
+            </td>
+            <td>
+              <span>{</span>{myvariable}}
+            </td>
+            <td>
+              {{myvariable}}
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              HTML
+            </td>
+            <td>
+              &lt;input type="checkbox" checked=<span>{</span>{myvariable}} /&gt;
+            </td>
+            <td>
+              <input type="checkbox" checked={{myvariable}} />
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              Ractive
+            </td>
+            <td>
+              &lt;switch value=<span>{</span>{myvariable}} /&gt;
+            </td>
+            <td>
+              <switch value={{myvariable}} />
+            </td>
+          </tr>
+        </table>
+
+
 			`
 		})
 	</script>
