@@ -18,12 +18,29 @@
 			el: 'body',
 			data: function() {
 				return {
+          myvariable: true
 				}
 			},
 			template: `
 
-        <switch />
-
+        <table cellspacing="15" cellpadding="15">
+          <tr>
+            <td>
+              &lt;input type="checkbox" value={{myvariable}} /&gt;
+            </td>
+            <td>
+              &lt;switch value={{myvariable}} /&lt;
+            </td>
+          </tr>
+          <tr>
+              <td>
+                <input type="checkbox" value={{myvariable}} />
+              </td>
+              <td>
+                <switch value={{myvariable}} />
+              </td>
+          </tr>
+        </table>
 			`
 		})
 	</script>
