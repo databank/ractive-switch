@@ -8,7 +8,7 @@
 
 		<script src="../src/js/main.js"></script>
 	</head>
-	<body style="background-color: #5f5f61;color: #fff;">
+	<body style="background-color: #5f5f61;color: #fff;font-family: sans-serif;">
 	</body>
 	<script>
 
@@ -23,15 +23,15 @@
 			},
 			template: `
 
-        <table cellspacing="15" cellpadding="15">
-          <tr>
-            <td>
+        <table cellspacing="1" cellpadding="15">
+          <tr style="background: #404046;">
+            <td width="300">
               &lt;input type="checkbox" checked={{myvariable}} /&gt;
             </td>
-            <td>
+            <td width="180">
               &lt;switch value={{myvariable}} /&gt;
             </td>
-            <td>
+            <td width="180">
               \{\{myvariable\}\}
             </td>
           </tr>
