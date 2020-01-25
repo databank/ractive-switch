@@ -4,7 +4,7 @@
 	"description": "ractivejs switch/toggle component",
 	"main": "dist/ractive-switch.min.js",
 	"scripts": {
-		"dev": "docker run -it --rm -v $PWD:/usr/share/nginx/html -p 8888:80 nginx",
+		"dev": "docker run -it --rm -v $PWD:/usr/share/nginx/html -p 7777:80 nginx",
 		"start": "webpack -w --config webpack.browser.js",
 		"build": "webpack --config webpack.browser.js"
 	},
