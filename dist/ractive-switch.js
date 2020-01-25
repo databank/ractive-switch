@@ -106,12 +106,15 @@ module.exports = __WEBPACK_EXTERNAL_MODULE__0__;
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var ractive__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(0);
-/* harmony import */ var ractive__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(ractive__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _css_style_less__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(2);
+/* harmony import */ var _css_style_less__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_css_style_less__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var ractive__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(0);
+/* harmony import */ var ractive__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(ractive__WEBPACK_IMPORTED_MODULE_1__);
 
 
 
-/* harmony default export */ __webpack_exports__["default"] = (ractive__WEBPACK_IMPORTED_MODULE_0___default.a.extend({
+
+/* harmony default export */ __webpack_exports__["default"] = (ractive__WEBPACK_IMPORTED_MODULE_1___default.a.extend({
   isolated: true,
   template: `
 
@@ -123,6 +126,12 @@ __webpack_require__.r(__webpack_exports__);
   	</div>
     `
 }));
+
+/***/ }),
+/* 2 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
 
 /***/ })
 /******/ ])["default"];
